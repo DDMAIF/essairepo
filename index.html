@@ -13,9 +13,9 @@
     <nav>
       <h3>Menu</h3>
       <ul>
-        <li>The Cranberries</li>
-        <li>Le tube</li>
-        <li>Dolores</li>
+        <li><a href="#ancre1">The Cranberries</a></li>
+        <li><a href="#ancre2">Le tube</a></li>
+        <li><a href="#ancre3">Dolores</a></li>
       </ul>
     </nav>
 
@@ -26,7 +26,7 @@
           alt="Mon groupe"
           width="300"
         />
-        <h3>The Cranberries</h3>
+        <h3 id="ancre1">The Cranberries</h3>
         <p>
           The Cranberries est un groupe de rock irlandais, originaire de
           Limerick. Il est surtout populaire dans les années 1990. Bien que le
@@ -37,13 +37,15 @@
       </article>
 
       <article>
-        <video
-          controls
-          poster="https://upload.wikimedia.org/wikipedia/en/thumb/1/16/The_Cranberries_-_Zombie.jpg/220px-The_Cranberries_-_Zombie.jpg"
-        >
-          <source src="https://www.youtube.com/embed/6Ejga4kJUts" />
-        </video>
-        <h3>Le tube</h3>
+        <iframe
+          width="300"
+          src="https://www.youtube.com/embed/6Ejga4kJUts"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+
+        <h3 id="ancre2">Le tube</h3>
         <p>
           Son tube principal est la chanson Zombie, au texte très politique
           puisqu'il dénonce les ravages de la guerre civile en Irlande du Nord.
@@ -63,7 +65,16 @@
           alt="Mon groupe"
           width="300"
         />
-        <h3>Dolores</h3>
+        <h3 id="ancre3">Dolores</h3>
+        <p>
+          Décès de la chanteuse en ce triste début du mois de janvier 2018...
+          Plus d'info sur le site de
+          <a
+            href="https://www.rtl.fr/culture/medias-people/dolores-o-riordan-on-connait-la-cause-de-la-mort-de-la-chanteuse-des-cranberries-7794685772"
+          >
+            RTL</a
+          >.
+        </p>
       </article>
     </section>
   </body>
