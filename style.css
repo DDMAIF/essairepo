@@ -6,6 +6,7 @@ header {
   color: white;
   background-color: steelblue;
   text-align: center;
+  padding: 0.005mm;
 }
 
 nav {
@@ -13,13 +14,13 @@ nav {
   background-color: lightblue;
   float: left;
   width: 20%;
-  border: 1px solid lightskyblue;
+  height: 1000px;
+  border: 2px solid lightskyblue;
 }
 
 section {
   margin-left: 21%;
-  padding: 1%; /* marge intérieure */
-  background-color: white; /* les articles sur fond blanc */
+  padding: 1%;
 }
 
 article {
@@ -34,7 +35,14 @@ article {
 
 section img,
 section video {
-  float: left; /* l'image à gauche avec le texte autour */
-  width: 25%; /* taille par défaut */
-  margin: 0 1em 1em 0; /* marge à droite et en bas de l'image pour que le texte ne soit pas collée */
+  float: left;
+  width: 30%;
+  height: 30%;
+  margin: 0 1em 1em 0;
+}
+
+iframe {
+  float: left;
+  width: 30%;
+  margin: 0 1em 1em 0;
 }
