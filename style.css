@@ -1,26 +1,37 @@
 body {
   background-color: beige;
+  min-height: 100vh; /* pour que mes éléments dans le body prennent tte la largeur de ma page web*/
+  display: flex;
+  flex-direction: column;
 }
 
 header {
   color: white;
   background-color: steelblue;
   text-align: center;
-  padding: 0.005mm;
+  font-size: 3em; /*ne pas mettre de pixel*/
+  padding: 0.005mm; /*marge intérieure*/
+}
+
+#contenu_principal {
+  display: flex;
+  flex-direction: row;
 }
 
 nav {
   color: white;
   background-color: lightblue;
-  float: left;
+  display: flex;
+  flex-direction: row;
   width: 20%;
   height: 1000px;
   border: 2px solid lightskyblue;
 }
 
 section {
-  margin-left: 21%;
   padding: 1%;
+  display: flex;
+  flex-direction: column;
 }
 
 article {
