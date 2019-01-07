@@ -1,14 +1,8 @@
 body {
   background-color: beige;
   min-height: 100vh; /* pour que mes éléments dans le body prennent tte la largeur de ma page web*/
-
-  display: grid;
-  grid-template-columns: 20% 80%;
-  grid-template-rows: auto;
-
-  grid-template-areas:
-    "header header header"
-    "nav section section";
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -17,20 +11,27 @@ header {
   text-align: center;
   font-size: 3em; /*ne pas mettre de pixel*/
   padding: 0.005mm; /*marge intérieure*/
-  grid-area: header;
+}
+
+#contenu_principal {
+  display: flex;
+  flex-direction: row;
 }
 
 nav {
   color: white;
   background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
   height: 1000px;
   border: 2px solid lightskyblue;
-  grid-area: nav;
 }
 
 section {
   padding: 1%;
-  grid-area: section;
+  display: flex;
+  flex-direction: column;
 }
 
 article {
@@ -46,13 +47,12 @@ article {
 section img {
   float: left;
   width: 30%;
-  height: 7cm;
+  height: 30%;
   margin: 0 1em 1em 0;
 }
 
 iframe {
   float: left;
   width: 30%;
-  height: 7cm;
   margin: 0 1em 1em 0;
 }
