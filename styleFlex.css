@@ -1,7 +1,7 @@
 body {
   background-color: beige;
   min-height: 100vh; /* pour que mes éléments dans le body prennent tte la largeur de ma page web*/
-  display: flex;
+  display: flex; /*pour placer des objets contenus dans des objets plus grands*/
   flex-direction: column;
 }
 

@@ -42,17 +42,3 @@ article {
   margin-bottom: 1%;
   overflow: auto; /**/
 }
-
-section img {
-  float: left; /*à utiliser pour placer une image dans du texte*/
-  width: 30%;
-  height: 7cm;
-  margin: 0 1em 1em 0;
-}
-
-iframe {
-  float: left;
-  width: 30%;
-  height: 7cm;
-  margin: 0 1em 1em 0;
-}
