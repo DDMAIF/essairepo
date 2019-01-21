@@ -45,6 +45,41 @@
           <a href="index.html#ancre3"> cliquez sur ce lien</a>).
         </p>
       </article>
+
+      <article>
+        <h3>Vos Mémoires</h3>
+
+        <form
+          method="post"
+          action="https://code-academie.free.beeceptor.com/DDMAIF"
+        >
+          <fieldset>
+            <legend>Vos coordonnées</legend>
+            <label> Votre prénom :</label>
+            <input type="text" name="prenom_de_la_personne" />
+          </fieldset>
+
+          <fieldset>
+            <legend>Vos mémoires</legend>
+            <p>
+              Aimez-vous ce groupe ?
+              <input type="radio" name="aime" value="oui" id="aime_bien" />
+              <label for="oui">Oui</label>
+              <input type="radio" name="aimepas" value="non" id="aime_pas" />
+              <label for="non">Non</label>
+            </p>
+            <p>Laissez vos souvenirs :</p>
+            <textarea
+              name="souvenirs"
+              id="souvenirs"
+              cols="40"
+              rows="6"
+            ></textarea>
+
+            <input type="submit" value="Envoyer" />
+          </fieldset>
+        </form>
+      </article>
     </section>
   </body>
 </html>
