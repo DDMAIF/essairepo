@@ -41,10 +41,13 @@ article {
   margin-left: 0.5%;
   margin-bottom: 1%;
   overflow: auto; /**/
+  padding: 1%;
+  text-align: justify;
 }
 
 fieldset {
-  background-color: lightseagreen;
+  margin-bottom: 1%;
+  background-color: lightblue;
   border: none;
   border-radius: 10px;
 }
@@ -52,6 +55,30 @@ fieldset {
 legend {
   margin-bottom: 1%;
   border: none;
-  border-radius: 10px;
-  background-color: green;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  background-color: steelblue;
+  display: inline-block;
+  vertical-align: middle;
+  height: 1.8em;
+  /*line-height: 1.8em;*/
+}
+
+.b_envoyer {
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  height: 30px;
+  text-align: center;
+}
+
+.b_effacer {
+  border: none;
+  border-radius: 5px;
+  background-color: lightcoral;
+  color: white;
+  height: 30px;
+  opacity: 0.5;
+  text-align: center;
 }
